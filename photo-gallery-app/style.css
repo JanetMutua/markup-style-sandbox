@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin: 0.5em auto;
+  text-wrap: wrap;
+  width: 70%;
+}
+
+header h1 {
+  font-size: 70px;
+  font-style: oblique;
+  font-weight: 900;
+}
+
+header h1 span {
+  color: #dd85d8;
+  text-decoration: underline;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 10px auto 20px;
+  gap: 15px;
+}
+
+.container img {
+  width: 350px;
+  height: 280px;
+  border-radius: 20px;
+  border: none;
+  object-fit: cover;
+  box-shadow: 3px 3px rgba(210, 9, 220, 0.01);
+}
+
+.container::after {
+  content: "";
+  width: 350px;
+}
