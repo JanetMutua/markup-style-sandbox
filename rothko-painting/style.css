@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.frame {
+  width: 450px;
+  border: 50px solid black;
+  margin: 15px auto;
+  padding: 25px;
+}
+
+.canvas {
+  width: 450px;
+  height: 500px;
+  background-color: bisque;
+  margin: 0 auto;
+  overflow: hidden;
+  filter: blur(2px);
+}
+
+.one {
+  width: 400px;
+  height: 160px;
+  background-color: cadetblue;
+  border-radius: 15px 45px;
+  margin: 15px auto;
+  transform: rotate(1deg);
+  filter: blur(2px);
+}
+
+.two {
+  width: 420px;
+  height: 125px;
+  background-color: chocolate;
+  margin: auto;
+  border-radius: 12px 30px 15px 45px;
+  transform: rotate(-0.7deg);
+  filter: blur(1px);
+}
+
+.three {
+  width: 70%;
+  height: 30%;
+  background-color: coral;
+  margin: 15px auto;
+  filter: blur(3px);
+  border-radius: 20px;
+  transform: rotate(2deg);
+}
