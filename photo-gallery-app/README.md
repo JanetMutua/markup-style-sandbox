@@ -6,6 +6,10 @@ Explored different styling elements and CSS Flexbox concept in CSS.
 
 Here is an overview of the final result:
 
+### Desktop view
+
 ![Petal & Vine Desktop View](./assets/images/web-view.png)
+
+### iPad view
 
 ![Petal & Vine iPad View](./assets/images/ipad-view.png)
