@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+}
+
+.main-container {
+  width: 500px;
+  background-color: bisque;
+  padding: 12px;
+  margin: 20px auto;
+  border-radius: 15px 89px 15px;
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f8ffae,
+    #43c6ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f8ffae,
+    #43c6ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  width: 350px;
+  margin: 20px auto;
+  border: 2px solid black;
+  padding: 0 7px;
+}
+
+.divider {
+  border-bottom: 2px solid darkgray;
+  margin: 2px 0;
+}
+
+header h1 {
+  font-weight: 900;
+  margin: 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.large {
+  height: 12px;
+}
+
+.medium {
+  height: 6px;
+}
+
+.large,
+.medium {
+  background-color: black;
+  border: none;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side h2 {
+  margin: 0;
+}
+
+.calories {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+.left-side p {
+  font-size: 2em;
+  font-weight: 700;
+  margin: -5px -2px;
+}
+
+.calories span {
+  font-weight: 700;
+  font-size: 2.4em;
+  margin: -7px -2px;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 2px solid darkgray;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.double-indent {
+  margin-left: 1.5em;
+}
+
+.small {
+  font-size: 0.65em;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent: -6px;
+}
