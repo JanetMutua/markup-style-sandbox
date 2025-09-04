@@ -1,0 +1,93 @@
+/* CSS custom variables */
+:root {
+  --building-one: green;
+  --building-two: purple;
+  --building-three: pink;
+  --building-four: palegreen;
+}
+
+*,
+*::before,
+*::after {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* styling container holding all back buildings */
+
+.back-buildings {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+/* styling the first building */
+.back-one {
+  width: 15%;
+  height: 55%;
+  background-color: var(--building-one);
+}
+
+/* styling the second building */
+.back-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  height: 70%;
+}
+
+/* styling the layers of building two */
+
+.back-two-top {
+  width: 62%;
+  height: 10%;
+  background-color: var(--building-two);
+}
+
+.back-two-middle {
+  width: 70%;
+  height: 10%;
+  background-color: var(--building-two);
+}
+
+.back-two-second-mid {
+  width: 80%;
+  height: 10%;
+  background-color: var(--building-two);
+}
+
+.back-two-bottom {
+  width: 100%;
+  height: 70%;
+  background-color: var(--building-two);
+}
+
+/* styling the third building */
+
+.back-three {
+  width: 15%;
+  height: 60%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background-color: var(--building-three);
+}
+
+/* styling the layers of building two */
+
+/* styling the fourth building */
+
+.back-four {
+  width: 12%;
+  height: 75%;
+  background-color: var(--building-four);
+}
