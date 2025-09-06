@@ -1,14 +1,14 @@
 # A city skyline designed using CSS
 
-## Screenshot
-
-Here is an overview of the final result:
+Live link: <https://apocalyptic-city-skyline.vercel.app/>
 
 ## Inspiration (I built this as part of freeCodeCamp's course)
 
 ![City skyline inspo](./images/inspo.png)
 
-## Desktop view (Redesigned the project )
+Here is an overview of my re-designed version of the city skyline:
+
+## Desktop view
 
 ![City skyline](./images/desktop-view.png)
 
