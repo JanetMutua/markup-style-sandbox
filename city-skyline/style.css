@@ -1,13 +1,13 @@
 /* CSS custom variables */
 :root {
-  --building-one: #a770ef;
-  --building-two: #0052d4;
-  --building-three: #3b4371;
-  --building-three-highlight: #243b55;
-  --building-four: #cf8bf3;
+  --building-one: #333333;
+  --building-two: #190a05;
+  --building-three: #001510;
+  --building-three-highlight: #00223e;
+  --building-four: #5d4157;
   --window-one: #fdb99b;
-  --window-two: #bdc3c7;
-  --window-three: #faffd1;
+  --window-two: #ffa17f;
+  --window-three: #cbad6d;
 }
 
 *,
@@ -24,14 +24,6 @@ body {
   overflow: hidden;
 }
 
-/* centering building parts with flexbox */
-
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /* styling container holding all back buildings */
 
 .back-buildings {
@@ -42,7 +34,26 @@ body {
   width: 100%;
 }
 
+/* applying shadow effect to give sunshine illusion */
+
+.shadow {
+  box-shadow: -10px -10px 12px -5px #ff9472;
+}
+
+.shadow-left {
+  box-shadow: -10px 0 12px -5px #ff9472;
+}
+
 /* styling the first building */
+
+/* centering building parts with flexbox */
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .back-one {
   width: 10%;
   height: 75%;
@@ -181,6 +192,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .front-one {
@@ -334,4 +346,15 @@ body {
       var(--window-three) 10%,
       var(--window-three) 46%
     );
+}
+
+/* designing the sky view using radial gradient */
+.sky-view {
+  background-image: radial-gradient(
+    at top left,
+    #f9d423,
+    #ff4e50,
+    #1f1c18 80%,
+    #000 100%
+  );
 }
